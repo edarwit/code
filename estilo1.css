@@ -1,0 +1,187 @@
+
+
+
+body{
+
+    background-color: aqua;
+}
+
+#pie{
+
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+
+#principal{
+
+    background-color: chocolate;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "p11"
+                         "p21"                    
+                         "p31"
+                         "p41"
+
+}
+.p11{
+    grid-area: p11;
+
+}
+
+.p21{
+    grid-area: p21;
+
+}
+
+.p31{
+    grid-area: p31;
+}
+
+.p41{
+    grid-area: p41;
+
+}
+.noticiasPrincipal{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "np11 np12"
+                         "np11 np22"
+                         "np21 np32"
+                         "np21 np42"
+                         ;
+
+}
+.np11{
+    grid-area: np11;
+}
+
+.np21{
+    grid-area: np21;
+}
+.np12{
+    grid-area: np12;
+}
+.np22{
+    grid-area: np22;
+}
+.np32{
+    grid-area: np32;
+}
+.np42{
+    grid-area: np42;
+}
+#barra{
+
+background-color: crimson;
+height: auto;
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+
+
+grid-template-areas: 
+                    " col21 col22 col23"
+                    
+                    ;
+
+}
+
+.col22{
+
+    grid-area: col22;
+    background-color: darkmagenta;
+    height: 100%;
+}
+.col21{
+
+    grid-area: col21;
+    background-color: darksalmon;
+    height: 100%;
+}
+.col23{
+
+    grid-area: col23;
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+
+.clase{
+    
+    background-color: darkgoldenrod;
+}
+
+main{
+
+
+    background-color: darkgreen;
+}
+
+.noticia{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas: "colNot11"
+                         "colNot22"                      
+    
+;
+    height: 70%;
+    width:  80%;
+   
+    margin:auto;
+    margin-top: 5em;
+    background-color: darkolivegreen;
+}
+
+.colNot11{
+    grid-area: colNot11;
+}
+.colNot22{
+    grid-area: colNot22;
+}
+
+.imagenhdp{
+   height: 90%;
+   width: 90%; 
+   margin-left: 4.5%;
+   margin-top: 4.5%;
+}
+
+.p1{
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Zen Kurenaido', sans-serif;
+text-align: center;
+font-size: smaller;
+font-weight: bold;
+
+background-color: yellow;
+
+
+
+}
+.p2{
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Zen Kurenaido', sans-serif;
+font-size: x-large;
+text-align: center;
+font-weight: bold;
+display:inline-block;
+
+}
+
+.aside{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+
+}
